@@ -1,4 +1,5 @@
 .container {
+    position: relative;
     max-width: 400px;
     margin: 10vh auto 0 auto;
     box-shadow: 0px 0px 40px 17px rgb(156, 156, 156);
@@ -54,14 +55,14 @@
 }
 .deletion {
 position: absolute;
-right: 793px;
+right: 312px;
 border: none;
 background-color: rgb(223, 31, 73);
 color: white;
 padding: 8px 15px;
 border-radius: 5px;
 font-size: medium;
-bottom: 523px;
+bottom: 443px;
 transition: 0.19s ease;
 }
 .deletion:hover {
